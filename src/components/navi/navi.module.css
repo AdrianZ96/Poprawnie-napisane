@@ -1,0 +1,29 @@
+body{
+     margin: 0;
+}
+.main {
+    background-color:#c6b29f;
+    padding: 1rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 5em;
+  margin: 0;
+  margin-right: 3em;
+  padding: 0;
+}
+
+.item {
+  font-family: "Imperial Script", cursive;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.item:hover {
+  color: #3e381f;
+}

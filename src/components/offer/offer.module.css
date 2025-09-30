@@ -1,0 +1,22 @@
+
+.offerBg {
+  background-color: #c6b29f;
+  width: 100%;      
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  padding: 48px 16px;        
+}
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  margin: 0;        
+  font-size: clamp(28px, 6vw, 64px);
+  line-height: 1.1;
+  font-family: "Imperial Script", cursive;
+  color: #fff;
+}
