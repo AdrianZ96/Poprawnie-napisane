@@ -4,6 +4,7 @@ import { Header } from './components/header/header';
 import { Nav } from './components/navi/navi';
 import { Content } from './components/content/content';
 import { Offer } from './components/offer/offer';
+import { PriceList } from './components/Pricelist/PriceList';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Nav></Nav>
         <Content></Content>
         <Offer></Offer>
+        <PriceList></PriceList>
     </>
   )
 }
