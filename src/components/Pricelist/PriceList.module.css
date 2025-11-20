@@ -18,25 +18,24 @@
   font-size: 3rem;
   font-weight: 500;
   color: #fff;
-  max-width: 800px;
+  max-width: 600px;
   padding-block: 1em;
 }
 .qText{
+    display: flex;
+    align-items: center;
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
+    background: url("/photos/bgWhy.png") center/cover no-repeat;
     color: #fff;
-    border: solid #fff;
-    border-radius: 50%;
-    max-height: 50px;
-    padding: 6rem 2rem;
-    margin-top: 5%;
+    padding: 11rem 2rem;
+    margin-top: 3%;
     font-style: italic;
 }
 .pricePanel{
     display: flex;
-    gap: 10%;
-    justify-content: center;
-    padding-inline: 3%;
+    justify-content: space-around;
+    align-items: center;
 
 }
