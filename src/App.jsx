@@ -5,6 +5,8 @@ import { Nav } from './components/navi/navi';
 import { Content } from './components/content/content';
 import { Offer } from './components/offer/offer';
 import { PriceList } from './components/Pricelist/PriceList';
+import { About } from './components/about/about';
+import { Portfolio } from './components/portfolio/portfolio';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Content></Content>
         <Offer></Offer>
         <PriceList></PriceList>
+        <About></About>
+        <Portfolio></Portfolio>
     </>
   )
 }

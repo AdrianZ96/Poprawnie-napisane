@@ -1,0 +1,55 @@
+.bgcolor{
+    background: #ede0d1;
+    max-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #fff;
+}
+.container{
+    background-color: #c6b29f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 0;
+    height: 0;
+    border-bottom: 600px solid #ede0d1; ;
+    border-left: 150px solid transparent;
+}
+
+.title{
+   font-family: "Imperial Script", cursive;
+    font-size: 3.2rem;
+    color: white;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #574738;
+    margin-right: 10%;
+}
+.titleText{
+    padding-top: 20px;
+    font-size: 2rem;
+    max-width: 600px;
+    text-align: center;
+}
+.text{
+    padding: 5%;
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: center;
+    
+}

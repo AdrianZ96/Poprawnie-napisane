@@ -18,9 +18,10 @@ body{
 
 .item {
   font-family: "Imperial Script", cursive;
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: white;
   cursor: pointer;
+  font-weight: 700;
   transition: color 0.3s;
 }
 

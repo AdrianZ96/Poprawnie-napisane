@@ -4,8 +4,10 @@ body{
     margin: 0;
 }
 .title {
+  font-size: clamp(28px, 6vw, 64px);
+  line-height: 1.1;
   font-family: "Imperial Script", cursive;
-  font-size: 3rem;
+  font-weight: 700;
   color: #574738;
   display: flex;
   justify-content: center;
